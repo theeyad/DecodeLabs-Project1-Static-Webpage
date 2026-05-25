@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Moto Luxury Motorcycles. Visual Architecture and Technical Integrity in high-performance bespoke motorcycle engineering. Oswald and JetBrains Mono typography.">
+  <title>Moto | Luxury Motorcycles</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/images/bike.avif" type="image/x-icon">
+
+  <!-- Typography Load: Oswald & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Oswald:wght@200..700&display=swap"
+    rel="stylesheet">
+
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="home">
+
+  <!-- Section 1: Header -->
+  <header class="header">
+    <div class="header__container">
+      <a href="#home" class="header__logo" aria-label="Moto Home">
+        <span class="header__logo-brand">Mo</span><span class="header__logo-sub">To</span>
+      </a>
+      <nav class="header__nav" aria-label="Main Navigation">
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a href="#home" class="header__nav-link header__nav-link--active">Home</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#moto" class="header__nav-link">NavAce</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#links" class="header__nav-link">Links</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#contact" class="header__nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- Section 2: Hero Section -->
+    <section class="hero-container" id="moto">
+      <div class="hero-container__inner">
+        <div class="hero-container__content">
+          <h1 class="hero-container__headline">THE ART OF MOTORCYCLE ENGINEERING</h1>
+          <p class="hero-container__description">Bespoke performance machines forged with computational precision,
+            visual purity, and uncompromising technical integrity.</p>
+          <div class="hero-container__actions">
+            <a href="#links" class="button button--primary" id="cta-explore">EXPLORE ARCHITECTURE</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Content Grid -->
+    <section class="content-cards" id="links">
+      <div class="content-cards__header">
+        <h2 class="content-cards__title">SYSTEM ANATOMY</h2>
+        <p class="content-cards__subtitle">A six-part architectural breakdown of Moto performance engineering.</p>
+      </div>
+
+      <div class="content-cards__grid">
+
+        <article class="card card--vertical card--col-1-3">
+          <div class="card__media">
+            <img class="card__img" src="assets/images/engine_block.webp"
+              alt="Close-up of Moto CNC machined custom engine block" width="278" height="278" loading="lazy">
+          </div>
+          <div class="card__body">
+            <div class="card__meta">
+              <span class="card__tag">SYSTEM 01</span>
+              <span class="card__spec">120ci / 145HP</span>
+            </div>
+            <h3 class="card__title">Moto V-Twin Core</h3>
+            <p class="card__description">Bespoke powerplant engineered with aerospace-grade CNC billet aluminum,
+              producing massive low-end torque with mathematical visual symmetry.</p>
+          </div>
+        </article>
+
+        <article class="card card--vertical card--vertical-alt card--col-4-6">
+          <div class="card__body">
+            <div class="card__meta">
+              <span class="card__tag">SYSTEM 02</span>
+              <span class="card__spec">8.2 KG WEIGHT</span>
+            </div>
+            <h3 class="card__title">Carbon Monocoque</h3>
+            <p class="card__description">A structural masterpiece of absolute rigidity and weight reduction. Crafted
+              from a single continuous carbon fiber weave pattern for high-speed aerodynamics.</p>
+          </div>
+          <div class="card__media">
+            <img class="card__img" src="assets/images/carbon_chassis.webp"
+              alt="Sleek carbon fiber motorcycle monocoque chassis structure" width="278" height="278" loading="lazy">
+          </div>
+        </article>
+
+        <div class="content-cards__stack card--col-7-9">
+
+          <article class="card card--horizontal">
+            <div class="card__media">
+              <img class="card__img" src="assets/images/handlebars.webp"
+                alt="CNC machined premium motorcycle handlebar controls and levers" width="120" height="120"
+                loading="lazy">
+            </div>
+            <div class="card__body">
+              <div class="card__meta">
+                <span class="card__tag">SYS 03</span>
+                <span class="card__spec">BILLET ALUM</span>
+              </div>
+              <h3 class="card__title">Precision Controls</h3>
+              <p class="card__description">Machined flight-grade controls featuring responsive micro-tactile feedback
+                and clean visual integration.</p>
+            </div>
+          </article>
+
+          <article class="card card--horizontal">
+            <div class="card__media">
+              <img class="card__img" src="assets/images/forged_wheel.webp"
+                alt="Bespoke forged lightweight motorcycle wheel rim and brake assembly" width="120" height="120"
+                loading="lazy">
+            </div>
+            <div class="card__body">
+              <div class="card__meta">
+                <span class="card__tag">SYS 04</span>
+                <span class="card__spec">CARBON ROTOR</span>
+              </div>
+              <h3 class="card__title">Monolithic Wheel</h3>
+              <p class="card__description">Forged from aerospace-grade alloy to achieve the lowest possible rotational
+                inertia and responsive braking.</p>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="content-cards__stack card--col-10-12">
+
+          <article class="card card--horizontal card--reverse">
+            <div class="card__body">
+              <div class="card__meta">
+                <span class="card__tag">SYS 05</span>
+                <span class="card__spec">GRADIENT BLUE</span>
+              </div>
+              <h3 class="card__title">Sculpted Titanium</h3>
+              <p class="card__description">Hand-welded exhaust system showing beautiful visual spectrum blue-to-purple
+                heat gradients along titanium curves.</p>
+            </div>
+            <div class="card__media">
+              <img class="card__img" src="assets/images/exhaust_pipe.webp"
+                alt="Close-up of hand-welded titanium exhaust pipes showing colorful heat gradients" width="120"
+                height="120" loading="lazy">
+            </div>
+          </article>
+
+          <article class="card card--horizontal card--reverse">
+            <div class="card__body">
+              <div class="card__meta">
+                <span class="card__tag">SYS 06</span>
+                <span class="card__spec">OLED DISPLAY</span>
+              </div>
+              <h3 class="card__title">Cockpit Telemetry</h3>
+              <p class="card__description">A clean, dashboard UI presenting vital statistics and metrics inside a luxury
+                carbon surround panel.</p>
+            </div>
+            <div class="card__media">
+              <img class="card__img" src="assets/images/digital_dash.webp"
+                alt="Minimalist digital cockpit dashboard displaying custom metrics" width="120" height="120"
+                loading="lazy">
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Section 4: Footer -->
+  <footer class="footer" id="contact">
+    <div class="footer__container">
+      <div class="footer__brand-block">
+        <a href="#home" class="footer__logo" aria-label="Moto Home">
+          <span class="footer__logo-brand">Mo</span><span class="footer__logo-sub">To</span>
+        </a>
+        <p class="footer__tagline">Engineered Visual Architecture</p>
+      </div>
+
+      <div class="footer__contact" id="contact-info">
+        <h3 class="footer__heading">CONTACT</h3>
+        <ul class="footer__contact-list">
+          <li class="footer__contact-item">
+            <span class="footer__contact-label">TEL</span>
+            <span class="footer__contact-value">+1 (800) 555-0190</span>
+          </li>
+          <li class="footer__contact-item">
+            <span class="footer__contact-label">EMAIL</span>
+            <span class="footer__contact-value">systems@moto.com</span>
+          </li>
+          <li class="footer__contact-item">
+            <span class="footer__contact-label">STUDIO</span>
+            <span class="footer__contact-value">Acre 12, Industrial Quarter, Munich, Germany</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copyright">&copy; 2026 Moto Luxury Motorcycles. All rights reserved. Visual Architecture &
+          Technical Integrity Audit Compliant.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
